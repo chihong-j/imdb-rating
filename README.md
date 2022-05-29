@@ -31,13 +31,13 @@
   - 平均分數最高的類型為電視劇(tvEpisode)，最低為電影(movie)
   ![title-rating](img/title-rating.png)
   - 票數越高的電影，平均分數也越高
+  
   ![vote-rating](img/vote-rating.png)
   - 總長度在 4 小時以下、20 小時以上的電影，平均分數略低
   ![hours-rating](img/hours-rating.png)
 - 演出人員
   - 演出前 10 高的演員平均分數都在 7 分以上且差異不大
   ![cast](img/cast.png)
-  - 參與前 10 高的幕後人員平均分數有些接近 8 分，只有一位低於 7 分
   ![cast-rating](img/cast-rating.png)
  
  
