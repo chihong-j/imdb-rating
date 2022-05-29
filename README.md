@@ -43,7 +43,7 @@
 ## 預測模型
 嘗試不同模型進行比較，同時嘗試不同資料集來比較演員資料是否對於電影評分預測有幫助
 - 模型成效
-![model-result](img/model/result.png)
+![model-result](img/model-result.png)
  
  
  
