@@ -63,7 +63,7 @@
 - Actor Embedding Learning
   - 節省大量運算資源和時間，且在分數上有更佳的表現
 - 比較不同演員的性質異同
-  成功使用 Actor Embedding 來計算相似度，能夠將演員特質量化並且放在一群
+  - 成功使用 Actor Embedding 來計算相似度，能夠將演員特質量化並且放在一群
 
 
  
