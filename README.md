@@ -1,8 +1,8 @@
 # imdb-rating
-預測 imdb 電影評分，並利用 embedding 比較演員之間相似度差異
+預測 IMDb 電影評分，並利用 embedding 比較演員之間相似度差異
 
 ## 任務介紹
-- 預測 imdb 電影評分
+- 預測 IMDb 電影評分
   - 使用年份、片長、風格、演員等等變數
 - Actor Embedding Learning
   - 使用 Actor Embedding 來取代 One-hot Encoding
@@ -56,6 +56,14 @@
   - 與 Vin Diesel 相關的主要都是動作片的演員，其中包含了出演『天能』的 John David Washington；我們熟悉的甄子丹，他與馮迪索共同主演『限制級戰警』；還有出演『搶救雷恩大兵』的 Barry Pepper
   - Kevin Hart 也曾經出演 J. Cole 的 MV 演出
 ![kevin](img/kevin.png)
+
+## 結論
+- 預測 IMDb 電影評分
+  - RMSE 預測評分大約誤差正負 1
+- Actor Embedding Learning
+  - 節省大量運算資源和時間，且在分數上有更佳的表現
+- 比較不同演員的性質異同
+  成功使用 Actor Embedding 來計算相似度，能夠將演員特質量化並且放在一群
 
 
  
