@@ -27,7 +27,7 @@
   ![start-year-rating](img/start-year-rating.png)
 - 部分欄位與平均分數關係
   - 平均分數最高的電影種類為 Western，最低為 Family
-  ![genre-rating](img/genre-rating.png)
+  ![genre-ratings](img/genre-ratings.png)
   - 平均分數最高的類型為電視劇(tvEpisode)，最低為電影(movie)
   ![title-rating](img/title-rating.png)
   - 票數越高的電影，平均分數也越高
