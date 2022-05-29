@@ -43,7 +43,21 @@
 ## 預測模型
 嘗試不同模型進行比較，同時嘗試不同資料集來比較演員資料是否對於電影評分預測有幫助
 - 模型成效
+  - 可以發現在原始資料集之下，加入演員以及幕後人員的資料欄位對於預測結果是有幫助的
+  - XGBoost 在所有模型當中表現最佳
 ![model-result](img/model-result.png)
+
+## 演員之間相似度計算
+利用演員的 embedding，計算 cosine similarity，找出與某一演員最相關的其他演員
+- Vin Diesel
+  - 與 Vin Diesel 相關的主要都是動作片的演員，其中包含了出演『天能』的 John David Washington；我們熟悉的甄子丹，他與馮迪索共同主演『限制級戰警』；還有出演『搶救雷恩大兵』的 Barry Pepper
+![vin](img/vin.png)
+- Kevin Hart
+  - 與 Vin Diesel 相關的主要都是動作片的演員，其中包含了出演『天能』的 John David Washington；我們熟悉的甄子丹，他與馮迪索共同主演『限制級戰警』；還有出演『搶救雷恩大兵』的 Barry Pepper
+  - Kevin Hart 也曾經出演 J. Cole 的 MV 演出
+![kevin](img/kevin.png)
+
+
  
  
  
